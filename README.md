@@ -1,6 +1,6 @@
 # MCP Browser Chatbot (Cursor Integration)
 
-A conversational **MCP client** built with Python, [LangChain](https://www.langchain.com/), and [Groq LLMs](https://groq.com/) — designed to run inside **Cursor**.
+A conversational **MCP client** built with Python, [LangChain](https://www.langchain.com/), and [Groq LLMs](https://groq.com/)  designed to run inside **Cursor**.
 
 This chatbot connects to multiple MCP servers (Playwright, DuckDuckGo search, Airbnb, etc.) and lets you control them conversationally, either in the terminal or through Cursor’s MCP integration.
 
@@ -41,7 +41,7 @@ This chatbot connects to multiple MCP servers (Playwright, DuckDuckGo search, Ai
    uv add mcp-use
    ```
 
-4. **Add chatbot script** (`main.py`) to the project root:
+4. **Add chatbot script** (`app.py`) to the project root:
 
    ```python
    import asyncio
@@ -138,16 +138,15 @@ Result: Found 10 cafes near Paris...
 Enter your message: 
 please open google.com and then open makemytrip.com
 chatbot:
+```
 <img width="2170" height="1108" alt="image" src="https://github.com/user-attachments/assets/7d59a203-7401-4412-b6a2-d96273a0b7b1" />
 <img width="2404" height="1604" alt="image" src="https://github.com/user-attachments/assets/b908f13d-e015-422c-9244-94a06beaba4f" />
 
 ```
-```
 Enter your message:Give top AI news
 chatbot:
-<img width="2404" height="1662" alt="image" src="https://github.com/user-attachments/assets/61c177ec-09c6-4a68-97c4-dfea8273db65" />
 ```
-
+<img width="2404" height="1662" alt="image" src="https://github.com/user-attachments/assets/61c177ec-09c6-4a68-97c4-dfea8273db65" />
 ### Commands
 
 * `clear` → Clear conversation history
