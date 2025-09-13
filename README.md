@@ -1,4 +1,4 @@
-# MCP Browser Chatbot (Cursor Integration)
+# MCP Chatbot (Cursor Integration)
 
 A conversational **MCP client** built with Python, [LangChain](https://www.langchain.com/), and [Groq LLMs](https://groq.com/)  designed to run inside **Cursor**.
 
