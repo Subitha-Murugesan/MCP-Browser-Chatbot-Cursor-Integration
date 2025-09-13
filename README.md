@@ -147,7 +147,8 @@ Enter your message:Give top AI news
 chatbot:
 ```
 <img width="2404" height="1662" alt="image" src="https://github.com/user-attachments/assets/61c177ec-09c6-4a68-97c4-dfea8273db65" />
-### Commands
+
+## Commands
 
 * `clear` → Clear conversation history
 * `exit | quit | bye` → Exit chatbot
@@ -187,5 +188,3 @@ chatbot:
    ```
 
 5. **Save the file** → Cursor will now recognize and connect to these MCP servers.
-
----
